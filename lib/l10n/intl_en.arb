@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flutter Sample Project",
+  "titleHomeScreen": "Home",
+  "titleListScreen": "List",
+  "titleErrorScreen": "Error",
+  "infoHome": "Press below to navigation to next screen, it does not contains any data, just for navigation",
+  "infoList": "Tap on any list item to pass data into next screen.",
+  "infoError": "Something wrong happened. Please go to previous screen."
+}
