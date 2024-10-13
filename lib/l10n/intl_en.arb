@@ -3,10 +3,12 @@
   "appTitle": "Flutter Sample Project",
   "titleHomeScreen": "Home",
   "titleListScreen": "List",
+  "titleListDetailScreen": "Detail",
   "titleErrorScreen": "Error",
   "buttonGotoListScreen": "Goto List screen",
   "infoHome": "Press below button to navigation to next screen using Bloc, it does not contains any data, just for navigation",
   "infoList": "Tap on any list item to pass data into next screen.",
+  "infoListDetails": "Below item are pass data from previous list screen.",
   "infoListEmpty": "There is no data found or error occurred.",
   "infoError": "Something wrong happened. Please go to previous screen."
 }

@@ -8,12 +8,17 @@ import 'package:flutter_routes_bloc/presentation/screens/commonscreens/error_scr
 import 'package:flutter_routes_bloc/presentation/screens/home_screen.dart';
 import 'package:flutter_routes_bloc/presentation/screens/list_screen.dart';
 
+import '../logic/blocs/details_cubit.dart';
 import '../logic/blocs/list_cubit.dart';
+import '../presentation/screens/details_screen.dart';
 
 //string defined routes names
 const String routeHome="home";
 const String routeList="list";
+const String routeListDetails="details";
 
+//argument key which will be pass from one screen to another
+const String argumentKeyInfoModel="keyInfoModel";
 
 class AppRoutes{
 
@@ -31,6 +36,14 @@ class AppRoutes{
         builder: (context) => BlocProvider(
           create: (context) => ListCubit(),
           child: const ListScreen(),
+        ),
+      );
+      case routeListDetails:
+        Map<String,dynamic> arguments = settings.arguments as Map<String,dynamic>; // get the arguments
+        return MaterialPageRoute(
+        builder: (context) => BlocProvider(
+          create: (context) => ListDetailCubit(),
+          child: ListDetailScreen( infoModel:  arguments[argumentKeyInfoModel],),
         ),
       );
       default:

@@ -6,9 +6,9 @@ import 'package:flutter_routes_bloc/logic/blocs/list_cubit.dart';
 import 'package:flutter_routes_bloc/logic/states/screen_state.dart';
 import 'package:flutter_routes_bloc/presentation/widgets/info_listview.dart';
 import 'package:flutter_routes_bloc/presentation/widgets/info_text.dart';
-import '../../data/info_model.dart';
+
 import '../widgets/app_bar.dart';
-import '../widgets/list_items/info_item.dart';
+
 
 class ListScreen extends StatelessWidget {
   const ListScreen({super.key});
