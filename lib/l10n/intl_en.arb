@@ -7,5 +7,6 @@
   "buttonGotoListScreen": "Goto List screen",
   "infoHome": "Press below button to navigation to next screen using Bloc, it does not contains any data, just for navigation",
   "infoList": "Tap on any list item to pass data into next screen.",
+  "infoListEmpty": "There is no data found or error occurred.",
   "infoError": "Something wrong happened. Please go to previous screen."
 }
