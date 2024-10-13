@@ -6,5 +6,4 @@ import 'package:flutter_routes_bloc/logic/states/screen_state.dart';
 
 class HomeCubit extends Cubit<ScreenState>{
   HomeCubit():super(InitialScreenState());
-
 }
