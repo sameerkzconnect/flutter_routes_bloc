@@ -4,13 +4,9 @@ Flutter demo project to setting routes using bloc
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is sample demo application which uses the generated routes using Bloc.
+1.String are store using intl_en.arb using internationalization. check out-https://lokalise.com/blog/flutter-i18n/
+2.Widgets are created sepertatly.
+3.
+ 
+ 
